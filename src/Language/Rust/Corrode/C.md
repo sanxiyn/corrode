@@ -327,8 +327,7 @@ modifyGlobal f = lift $ do
 ```
 
 Some names are special in C or special in Rust, or both. We rename those
-as we encounter them. At the moment, only `main` gets this special
-treatment.
+as we encounter them.
 
 ```haskell
 applyRenames :: Ident -> String
